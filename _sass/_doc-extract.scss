@@ -142,20 +142,28 @@ section.doc-ext-blade {
             }
           }
 
-          h4 {
-            text-align: center;
-            font-family: 'Adobe Clean Bold';
-            font-size: 1.375rem;
-            padding: 0 2rem;
-            text-transform: none;
-            line-height: 1.8125rem;
-            letter-spacing: 0.1px;
-            @media screen and (min-width: 767px) {
-              text-align: left;
-            }
+          .ext-title {
             @media screen and (min-width: 1024px) {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 4rem;
+            }
+            h4 {
               text-align: center;
-              padding: 0.625rem 0 0;
+              font-family: 'Adobe Clean Bold';
+              font-size: 1.375rem;
+              padding: 0 2rem;
+              text-transform: none;
+              line-height: 1.8125rem;
+              letter-spacing: 0.1px;
+              @media screen and (min-width: 767px) {
+                text-align: left;
+              }
+              @media screen and (min-width: 1024px) {
+                text-align: center;
+                padding: 0.625rem 0 0;
+              }
             }
           }
 
